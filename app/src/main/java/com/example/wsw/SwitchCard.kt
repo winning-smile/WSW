@@ -1,7 +1,6 @@
 package com.example.wsw
 
 import android.annotation.SuppressLint
-import android.util.Log
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -42,7 +41,7 @@ import androidx.compose.ui.unit.sp
 
 @SuppressLint("UnrememberedMutableInteractionSource")
 @Composable
-fun SwitchCard(onButtonClicked: () -> Unit) {
+fun SwitchCard(name: String?, onButtonClicked: () -> Unit) {
     Box(
         modifier = Modifier
             .padding(horizontal=10.dp)
@@ -79,7 +78,9 @@ fun SwitchCard(onButtonClicked: () -> Unit) {
             Column(horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center,
                 modifier = Modifier.fillMaxHeight().weight(1f)) {
-                Text("V3 Pro Fairy Silent")
+                if (name != null) {
+                    Text(name)
+                }
             }
             Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center,modifier = Modifier.fillMaxHeight().weight(1f)) {
                 val radioButtonState = remember { mutableStateOf(false) }
@@ -91,7 +92,9 @@ fun SwitchCard(onButtonClicked: () -> Unit) {
 }
 
 @Composable
-fun BottomInfo(){
+fun BottomInfo(bottom_out_force: String?, spring: String?, tac_travel: String?, price: String?,
+               total_travel: String?, op_force: String?, name: String?, bio: String?,
+               tac_foce: String?, type: String?, pre_travel: String?){
     Column(horizontalAlignment = Alignment.CenterHorizontally,
         modifier = Modifier.clip(shape = RoundedCornerShape(25.dp, 25.dp, 0.dp, 0.dp))
             .border(1.dp, Color.LightGray, RoundedCornerShape(25.dp, 25.dp, 0.dp, 0.dp))
@@ -109,20 +112,54 @@ fun BottomInfo(){
             )
         }
         Row(modifier = Modifier.fillMaxWidth().padding(10.dp), horizontalArrangement= Arrangement.Center){
-            Text("Akko Fairy Switch", fontSize = 30.sp)
+            if (name != null) {
+                Text(name, fontSize = 30.sp)
+            }
         }
         Row(modifier = Modifier.fillMaxWidth().padding(10.dp), horizontalArrangement= Arrangement.SpaceEvenly){
             Column {
-                Row(modifier = Modifier.padding(5.dp))  { Text("Type: Linear") }
-                Row(modifier = Modifier.padding(5.dp))  { Text("Operating Force: 50gf ± 5gf") }
-                Row(modifier = Modifier.padding(5.dp))  { Text("Total Travel: 3.3mm") }
-                Row(modifier = Modifier.padding(5.dp))  { Text("Pre-Travel: 2.0 ± 0.5mm") }
+                Row(modifier = Modifier.padding(5.dp))  {
+                    if (type != null) {
+                        Text(type)
+                    }
+                }
+                Row(modifier = Modifier.padding(5.dp))  {
+                    if (op_force != null) {
+                        Text(op_force)
+                    }
+                }
+                Row(modifier = Modifier.padding(5.dp))  {
+                    if (total_travel != null) {
+                        Text(total_travel)
+                    }
+                }
+                Row(modifier = Modifier.padding(5.dp))  {
+                    if (pre_travel != null) {
+                        Text(pre_travel)
+                    }
+                }
             }
             Column {
-                Row(modifier = Modifier.padding(5.dp))  { Text("Tactile Travel: N/A") }
-                Row(modifier = Modifier.padding(5.dp))  { Text("Tactile Force: N/A") }
-                Row(modifier = Modifier.padding(5.dp))  { Text("Bottom-out Force: N/A") }
-                Row(modifier = Modifier.padding(5.dp))  { Text("Spring: N/A") }
+                Row(modifier = Modifier.padding(5.dp))  {
+                    if (tac_travel != null) {
+                        Text(tac_travel)
+                    }
+                }
+                Row(modifier = Modifier.padding(5.dp))  {
+                    if (tac_foce != null) {
+                        Text(tac_foce)
+                    }
+                }
+                Row(modifier = Modifier.padding(5.dp))  {
+                    if (bottom_out_force != null) {
+                        Text(bottom_out_force)
+                    }
+                }
+                Row(modifier = Modifier.padding(5.dp))  {
+                    if (spring != null) {
+                        Text(spring)
+                    }
+                }
             }
         }
         Row(horizontalArrangement= Arrangement.Center, modifier = Modifier.fillMaxWidth().padding(10.dp)){
@@ -143,11 +180,11 @@ fun BottomInfo(){
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun FullCard() {
+fun FullCard(sI: SwitchK) {
     val sheetState = rememberModalBottomSheetState()
     var isSheetOpen by rememberSaveable{ mutableStateOf(false) }
-    Log.d("Do", sheetState.toString())
-    SwitchCard(onButtonClicked = {isSheetOpen = !isSheetOpen; Log.d("posle", sheetState.toString())})
+
+    SwitchCard(sI.name, onButtonClicked = {isSheetOpen = !isSheetOpen})
 
     if (isSheetOpen){
         ModalBottomSheet(
@@ -155,7 +192,9 @@ fun FullCard() {
             onDismissRequest = { isSheetOpen = false}
         )
         {
-            BottomInfo()
+                BottomInfo(
+                    sI.bottom_out_force, sI.spring, sI.tac_travel, sI.price, sI.total_travel,
+                    sI.op_force, sI.name, sI.bio, sI.tac_foce, sI.type, sI.pre_travel)
         }
     }
 }

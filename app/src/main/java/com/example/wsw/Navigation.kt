@@ -29,14 +29,14 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 
 @Composable
-fun ComposeNavigation() {
+fun ComposeNavigation(viewModel: SwitchCardViewModel) {
     val navController = rememberNavController()
     NavHost(
         navController = navController,
         startDestination = "search_screen"
     ) {
         composable("search_screen") {
-            SearchScreen(navController = navController)
+            SearchScreen(viewModel, navController = navController)
         }
         composable("compare_screen") {
             CompareScreen(navController = navController)

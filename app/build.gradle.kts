@@ -1,6 +1,8 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.google.gms.google-services")
+    kotlin("plugin.serialization") version "1.4.0"
 }
 
 android {
@@ -47,10 +49,14 @@ android {
 dependencies {
 
     implementation("androidx.compose.material3:material3-android:1.2.0-beta01")
+    implementation("com.google.firebase:firebase-common-ktx:20.4.2")
+    implementation("com.google.firebase:firebase-database-ktx:20.3.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.2")
     val composeBom = platform("androidx.compose:compose-bom:2023.10.01")
     implementation(composeBom)
     androidTestImplementation(composeBom)
 
+    implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
     // Choose one of the following:
     // Material Design 3
     implementation("androidx.compose.material3:material3")
