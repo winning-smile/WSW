@@ -67,7 +67,8 @@ fun BottomNav(navController: NavController){
                         radius = 75.dp,
                         color = Color.DarkGray
                     ),
-                    onClick = {navController.navigate("search_screen"){
+                    onClick = {navController.navigate("search_screen")
+                    {
                         popUpTo(navController.graph.findStartDestination().id)
                         {
                             saveState = true
@@ -75,7 +76,7 @@ fun BottomNav(navController: NavController){
                         launchSingleTop = true
                         restoreState = true
                     }
-                    }
+                }
                 )
             ){
                 Text("Search")

@@ -3,6 +3,9 @@
     "switches": {
       "akko": {
         "1": {
+          "main_img": "https://i.postimg.cc/LstzJc0y/V3-Pro-Penguin-Silent.jpg",
+          "info_img": "https://i.postimg.cc/44BQbT4q/V3-Penguin-Silent-XQ-GX2.jpg",
+          "promo_ing": "https://i.postimg.cc/BnQW732F/Penguin-GX.jpg",
           "name": "Akko Penguin Switch",
           "type": "Type: Tactile",
           "op_force": "Operating Force: 48 \u00b1 5gf",
@@ -16,6 +19,9 @@
           "bio": "\nAkko\u2019s first silent tactile switches;\nIt comes with an early tactile feeling at 0.4mm until 2.0mm, with an operating force at 43gf, a tactile force of 58gf and a bottom-out force at 60gf (Max).\nLifespan: 50million;\n5-pin and fits keycaps with standard MX structure;\nMaterial: POM/PA/PA;\n45 pcs in a pack.\n"
         },
         "2": {
+          "main_img": "https://i.postimg.cc/RZn1B61x/V3-Pro-Fairy-Silent.jpg",
+          "info_img": "https://i.postimg.cc/q7VsMJQh/V3-Pro-Fairy-Silent-XQ-GX2.jpg",
+          "promo_ing": "https://i.postimg.cc/wxfDRc0d/V3-Pro-Fairy-Silent-XQ-Q.jpg",
           "name": "Akko Fairy Switch",
           "type": "Type: Linear",
           "op_force": "Operating Force: 50gf \u00b1 5gf",
@@ -29,6 +35,9 @@
           "bio": "\nLinear silent switches;\n17mm spring;\n50 million lifespan.\n45 pcs per pack;\n5-pin and fits keycaps with standard MX structure;\nMaterial: POM Stem/PA Housing;\nShipping price is not included for the listed price and will display at checkout.\n"
         },
         "3": {
+          "main_img": "https://i.postimg.cc/908PWyNC/V3-Matcha-Green-Pro.jpg",
+          "info_img": "https://i.postimg.cc/7Ln2Hgfd/V3-Matcha-Green-Pro-XQ1.jpg",
+          "promo_ing": "https://i.postimg.cc/VLFQFv01/Matcha-Green-Pro-Q.jpg",
           "name": "Akko V3 Matcha Green Pro Switch",
           "type": "Type: Linear",
           "op_force": "Operating Force: 50gf \u00b1 5gf",
@@ -42,6 +51,9 @@
           "bio": "\nAkko Matcha Green Pro has upgraded the regular Matcha Green with dustproof structure,\u00a0with additional lubes on the rails, providing better out-of-box experiences;\nThe 50gf actuation force for Matcha Green Pro is heavier than regular Matcha Green and is a great option for users who are in favor of smooth linear switches but prefer stronger feedback and deeper sound;\n45 pcs per pack.\n"
         },
         "4": {
+          "main_img": "https://i.postimg.cc/pdzBDhyJ/V3-Crystal-Pro.jpg",
+          "info_img": "https://i.postimg.cc/hjn1MDdW/V3-Crystal-Pro-XQ2.jpg",
+          "promo_ing": "https://i.postimg.cc/Y0ZkKsk7/Crystal-Pro-Q.jpg",
           "name": "Akko V3 Crystal Pro Switch",
           "type": "Type: Linear",
           "op_force": "Operating Force: 45gf \u00b1 5gf",
@@ -55,6 +67,9 @@
           "bio": "\nAkko Crystal Pro has upgraded the regular Crystal with dustproof structure,\u00a0with additional lubes on the rails, providing better out-of-box experiences;\nAkko\u2019s full polycarbonate switches;\n45gf classic actuation force with 18mm extension spring.\n"
         },
         "5": {
+          "main_img": "https://i.postimg.cc/RFvwKgkv/V3-Silver-Pro.jpg",
+          "info_img": "N/A",
+          "promo_ing": "https://i.postimg.cc/qvZFm3Jf/Silver-Pro-Q.jpg",
           "name": "Akko V3 Silver Pro Switch",
           "type": "Type: Linear",
           "op_force": "Operating Force: 40gf \u00b1 5gf",
@@ -67,7 +82,9 @@
           "price": "$13.99",
           "bio": "\nAkko Silver Pro has upgraded the regular CS Silver to 5-pin with dustproof structure, with additional lubes on the rails, providing better out-of-box experiences.\n"
         },
-        "6": {
+        "6": {"main_img": "https://i.postimg.cc/nr02CyM8/V3-Cream-Black-Pro.jpg",
+          "info_img": "https://i.postimg.cc/kMcf1bsj/V3-Cream-Black-Pro-XQ2-1.jpg",
+          "promo_ing": "https://i.postimg.cc/KY2G8wTv/Cream-Black-Pro-Q.jpg",
           "name": "Akko V3 Cream Black Pro Switch",
           "type": "Type: Linear",
           "op_force": "Operating Force: 55gf \u00b1 5gf",
@@ -80,7 +97,9 @@
           "price": "$11.99",
           "bio": "\nAkko Cream Black has upgraded the regular Jelly Black to 5-pin, with additional lubes on the rails, providing better out-of-box experiences.\n"
         },
-        "7": {
+        "7": {"main_img": "https://i.postimg.cc/pTBY6wf9/V3-Lavender-Purple-Pro.jpg",
+          "info_img": "https://i.postimg.cc/nrcYb323/V3-Lavender-Purple-Pro-XQ2-1.jpg",
+          "promo_ing": "https://i.postimg.cc/HLVqHtZs/Lavender-Purple-Pro-Q.jpg",
           "name": "Akko V3 Lavender Purple Pro Switch",
           "type": "Type: Tactile",
           "op_force": "Operating Force: 40gf \u00b1 5gf",
@@ -93,7 +112,9 @@
           "price": "$9.99",
           "bio": "\nAkko Lavender Purple Pro has upgraded the regular Lavender Purple to 5-pin with dustproof structure, with additional lubes on the rails, providing better out-of-box experiences.\n"
         },
-        "8": {
+        "8": {"main_img": "https://i.postimg.cc/mrfDFhv4/Akko-V3-Piano-Pro-Switch-GX.jpg",
+          "info_img": "https://i.postimg.cc/Yq0fdyh9/V3-Piano-Pro-XQ-GX1.jpg",
+          "promo_ing": "https://i.postimg.cc/HsN0R4yt/V3-Piano-Pro-XQ-GX3.jpg",
           "name": "Akko V3 Piano Pro Switch",
           "type": "Type: Linear",
           "op_force": "Operating Force: 45gf \u00b1 5gf",
@@ -106,7 +127,9 @@
           "price": "$13.99",
           "bio": "\n\nAkko Piano Pro has upgraded the regular Piano switches with additional lubes on the rails, providing better out-of-box experiences.\n\n"
         },
-        "9": {
+        "9": {"main_img": "https://i.postimg.cc/hPtMHt3K/V3-Cream-Blue-Pro.jpg",
+          "info_img": "https://i.postimg.cc/wT4FHYSL/V3-Cream-Blue-Pro-GX1.jpg",
+          "promo_ing": "https://i.postimg.cc/GhTdJdJm/Cream-Blue-Pro-Q.jpg",
           "name": "Akko V3 Cream Blue Pro Switch",
           "type": "Type: Tactile",
           "op_force": "Operating Force: 45gf \u00b1 5gf",
@@ -119,7 +142,9 @@
           "price": "$8.99",
           "bio": "\nCream Blue Pro is an upgraded version of Cream Blue.\nMajor Changes:\n\n5-Pin switches (better stability)\nDustproof stem (better stability)\nUpgrade silver contact to palladium gold\nUpgrade phosphor copper to alloy copper\nLubed rail to reduce friction\n\nOverall it should bring a more consistent typing experience.\n"
         },
-        "10": {
+        "10": {"main_img": "https://i.postimg.cc/t41k4mjf/V3-Cream-Yellow-Pro.jpg",
+          "info_img": "https://i.postimg.cc/nh6kjYVL/V3-Cream-Yellow-Pro-XQ2-1.jpg",
+          "promo_ing": "https://i.postimg.cc/V67m4NVd/Cream-Yellow-Pro-Q.jpg",
           "name": "Akko V3 Cream Yellow Pro Switch",
           "type": "Type: Linear",
           "op_force": "Operating Force: 50gf \u00b1 5gf",
@@ -132,7 +157,9 @@
           "price": "$8.99",
           "bio": "\nCream Yellow Pro is an upgraded version of Cream Yellow.\nMajor Changes:\n\n5-Pin switches (better stability)\nDustproof stem (better stability)\nUpgrade silver contact to palladium gold\nUpgrade phosphor copper to alloy copper\nLubed rail to reduce friction\n\nOverall it should bring a more consistent typing experience.\n"
         },
-        "11": {
+        "11": {"main_img": "https://i.postimg.cc/15bRLf5F/Crystal-Blue.jpg",
+          "info_img": "https://i.postimg.cc/B6221dYY/AKKO-CS-Crystal-Blue-XQ2.jpg",
+          "promo_ing": "https://i.postimg.cc/8c28nfBP/CS-Crystal-Blue-Q.jpg",
           "name": "Akko CS Crystal Blue Switch",
           "type": "Type: Linear",
           "op_force": "End Force: 40 \u00b1 5gf",
@@ -145,7 +172,9 @@
           "price": "$14.99",
           "bio": "\nFull polycarbonate switches;\n22mm extension spring with 1.6mm short pre-travel.\n"
         },
-        "12": {
+        "12": {"main_img": "https://i.postimg.cc/GhRnYG2q/POM-Brown.jpg",
+          "info_img": "https://i.postimg.cc/wvbYLG1N/CS-POM-Brown-XQ2.jpg",
+          "promo_ing": "https://i.postimg.cc/9Q3VLKJt/CS-POM-Brown-XQ.jpg",
           "name": "Akko POM Brown Switch",
           "type": "Type: Tactile",
           "op_force": "Operating Force: 40gf\u00b15gf",
@@ -158,7 +187,9 @@
           "price": "$16.99",
           "bio": "\nAkko\u2019s full POM switches;\nComparing to Lavender Purple, POM Brown is slightly heavier and has a medium point of tactile feedback;\nWith the 18mm extension spring, the POM materials will make the switches more smooth and cream, providing unique typing experiences;\n45 pcs in a pack.\n"
         },
-        "13": {
+        "13": {"main_img": "https://i.postimg.cc/d1c4XRgf/TTC-Gold-Red-0.jpg",
+          "info_img": "https://i.postimg.cc/KjZQcGGr/TTC-Gold-Red-V3-B2.jpg",
+          "promo_ing": "https://i.postimg.cc/mD38Gzsg/TTC-Gold-Red-V3-B.jpg",
           "name": "TTC Gold Red V3 Switch",
           "type": "Type: Linear",
           "op_force": "End Force: 43gf \u00b1 5gf",
@@ -171,7 +202,9 @@
           "price": "$18.99",
           "bio": "N/A"
         },
-        "14": {
+        "14": {"main_img": "https://i.postimg.cc/zGWD58Vc/Crystal-Wine-Red.jpg",
+          "info_img": "https://i.postimg.cc/WzhjyPBS/Crystal-Wine-Red-XQ2.jpg",
+          "promo_ing": "https://i.postimg.cc/SsQmW9VB/Crystal-Wine-Red-XQ.jpg",
           "name": "Akko CS Crystal Wine Red Switch",
           "type": "Type: Linear",
           "op_force": "Operating Force: 45gf \u00b1 5gf",
@@ -184,7 +217,9 @@
           "price": "$16.99",
           "bio": "\nFull polycarbonate structure (stem+housing);\nCrystal gray housing for optimized RGB experiences;\n23mm extension spring;\n45 pcs per pack.\u00a0\u00a0\n"
         },
-        "15": {
+        "15": {"main_img": "https://i.postimg.cc/FspgpX9w/Air1.jpg",
+          "info_img": "https://i.postimg.cc/0yHGgGKf/Akko-CS-Air-XQ2.jpg",
+          "promo_ing": "https://i.postimg.cc/1zBQ5tPJ/CS-Air-Q2.jpg",
           "name": "Akko CS Air Switch",
           "type": "Type: Linear",
           "op_force": "Operating Force: 48gf \u00b1 5gf",
@@ -197,7 +232,9 @@
           "price": "$13.99",
           "bio": "\nAkko Air Switches are equipped on Akko Air Version keyboards for Mac users;\nPole Stem Length:13.3mm;\n22mm Extension Spring;\nAdopted the same POM/PC/PC structure like Akko Jelly series.\n"
         },
-        "16": {
+        "16": {"main_img": "https://i.postimg.cc/1zGz0sSq/Akko-x-TTC-Demon.jpg",
+          "info_img": "https://i.postimg.cc/nrzctmD4/Akko-x-TTC-Demon-xq2.jpg ",
+          "promo_ing": "https://i.postimg.cc/NMQjpSGP/Akko-x-TTC-Demon-xq.jpg",
           "name": "Akko x TTC Demon Switch",
           "type": "Type: Linear",
           "op_force": "End Force: 50gf",
@@ -210,7 +247,9 @@
           "price": "$6.99",
           "bio": "\nA work done by Akko x TTC;\nEquipped with TTC\u2019s latest condenser technique (released 2021/7), a brand new way for light guidance that collects, transmits and emits uniform and vibrant LED backlight on mechanical keyboards;\nEnhanced stem stability and smoothness;\n10 pcs per pack (shipping fees are calculated separately);\n"
         },
-        "17": {
+        "17": {"main_img": "https://i.postimg.cc/NFg22LrF/Akko-CS-Silver-X.jpg",
+          "info_img": "https://i.postimg.cc/QNpRXCb5/Silver-XQ2.jpg",
+          "promo_ing": "https://i.postimg.cc/TP3RbmtZ/CS-Silver-Q2.jpg",
           "name": "Akko CS Silver Switch",
           "type": "Type: Linear",
           "op_force": "Operating Force: 43gf \u00b1 5gf",
@@ -223,7 +262,9 @@
           "price": "$13.99",
           "bio": "\n\nWith short pre-travel of 1mm, this is one of the fastest Akko CS switches and is ideal for gaming;\nCS silver switches are equipped with dustproof stem for enhanced stability;\n\nMaterial Break-down:\nStem = POM;\nContact Leaf = Copper Alloy;\nBottom = PA;\nTop Housing = Polycarbonate.\n\n"
         },
-        "18": {
+        "18": {"main_img": "https://i.postimg.cc/K8NG4QDP/Gold-Brown.jpg",
+          "info_img": "https://i.postimg.cc/CLcr1qfZ/TTC-Gold-Brown-V3-B2.jpg",
+          "promo_ing": "https://i.postimg.cc/VLfHmR5Q/TTC-Gold-Brown-V3-B.jpg",
           "name": "TTC Gold Brown V3 Switch",
           "type": "Type: Tactile",
           "op_force": "End Force: 45gf \u00b1 5gf",
@@ -236,7 +277,9 @@
           "price": "$18.99",
           "bio": "N/A"
         },
-        "19": {
+        "19": {"main_img": "https://i.postimg.cc/2ym9qdwW/TTC-Gold-Blue-0.jpg",
+          "info_img": "https://i.postimg.cc/59qkhG4S/TTC-Gold-Blue-B2.jpg",
+          "promo_ing": "https://i.postimg.cc/VvRGXSGV/TTC-Gold-Blue-B.jpg",
           "name": "TTC Gold Blue Switch",
           "type": "Type: Click",
           "op_force": "End Force: 37gf \u00b1 5gf",
@@ -249,7 +292,9 @@
           "price": "$24.99",
           "bio": "N/A"
         },
-        "20": {
+        "20": {"main_img": "https://i.postimg.cc/vBXHjhc8/Akko-x-TTC-Princess.jpg",
+          "info_img": "https://i.postimg.cc/jqgS4MpZ/Akko-x-TTC-Princess-xq2.jpg",
+          "promo_ing": "https://i.postimg.cc/kGpMM5Qk/Akko-x-TTC-Princess-xq.jpg",
           "name": "Akko x TTC Princess Switch",
           "type": "Type: Linear",
           "op_force": "End Force: 45gf",
@@ -262,7 +307,9 @@
           "price": "$6.99",
           "bio": "\nA work done by Akko x TTC;\nEquipped with TTC\u2019s latest condenser (released 2021/7), a brand new way for light guidance that collects, transmits and emits uniform and vibrant LED backlight on mechanical keyboards;\nEnhanced stem stability and smoothness;\n10 pcs per pack (shipping fees are calculated separately);\n"
         },
-        "21": {
+        "21": {"main_img": "https://i.postimg.cc/DynRmhjN/Snow-Blue-Gray1.jpg",
+          "info_img": "https://i.postimg.cc/Njy9H3L6/Akko-CS-Snow-Blue-Gray-XQ2.jpg",
+          "promo_ing": "https://i.postimg.cc/sXPZ25xb/Akko-CS-Snow-Blue-Gray-XQ1.jpg",
           "name": "Akko CS Snow Blue Gray Switch",
           "type": "Type: Linear",
           "op_force": "Operating Force: 43gf \u00b1 5gf",
@@ -275,7 +322,9 @@
           "price": "$15.99",
           "bio": "\nAkko\u2019s first 5-pin switches with POM/PC/PA structure;\n18mm extension spring;\nFortified PA bottom case;\nCollaborated with Bilibili influencer XCJZ;\n45 pcs per pack.\n"
         },
-        "22": {
+        "22": {"main_img": "https://i.postimg.cc/K8dKr0gd/Akko-CS-Sponge-X.jpg",
+          "info_img": "https://i.postimg.cc/RVdyHY2Z/Sponge-XQ4.jpg",
+          "promo_ing": "https://i.postimg.cc/wT4R3qxx/Akko-CS-Sponge-X-XQ.jpg",
           "name": "Akko CS Sponge Switch",
           "type": "Type: Tactile",
           "op_force": "Actuation Force : 40gf \u00b1 5gf",
@@ -288,7 +337,9 @@
           "price": "$11.99",
           "bio": "\nThe re-colored version of Jelly Blue with dual tactile bump (both when pressing and releasing);\nA \u201ctoy\u201d designed for the custom mechanical keyboard community.\n"
         },
-        "23": {
+        "23": {"main_img": "https://i.postimg.cc/CK5g5010/Lavender-Purple-X.jpg",
+          "info_img": "https://i.postimg.cc/fynn80vW/Lavender-Purple-XQ2.jpg",
+          "promo_ing": "N/A",
           "name": "Akko CS Lavender Purple Switch",
           "type": "Type: Tactile",
           "op_force": "Operating Force: 36gf \u00b1 5gf",
@@ -301,7 +352,9 @@
           "price": "$9.99",
           "bio": "\n45 pcs per pack;\n3 pin and fits keycaps with standard MX structure;\nShipping price is not included for the listed price and will display at checkout.\n"
         },
-        "24": {
+        "24": {"main_img": "https://i.postimg.cc/yNyVgjhh/Crystal-Silver.jpg",
+          "info_img": "https://i.postimg.cc/hPc1Vtq9/Akko-CS-Crystal-Silver-XQ2.jpg",
+          "promo_ing": "https://i.postimg.cc/2SfRQvS0/CS-Silver-Q.jpg",
           "name": "Akko CS Crystal Silver Switch",
           "type": "Type: Linear",
           "op_force": "Operating Force: 43gf \u00b1 5gf",
@@ -314,20 +367,9 @@
           "price": "$16.99",
           "bio": "\nFull polycarbonate structure (stem+housing);\nCrystal gray housing for optimized RGB experiences;\n1.0mm short pre-travel and fast Actuation, which is ideal for gaming;\n22mm extension spring;\n45 pcs per pack.\u00a0\u00a0\n\u00a0\n\u00a0\n\n"
         },
-        "25": {
-          "name": "Akko CS Silver Switch",
-          "type": "Type: Linear",
-          "op_force": "Operating Force: 43gf \u00b1 5gf",
-          "total_travel": "Total Travel: 3.0 \u00b1 0.3mm",
-          "pre_travel": "Pre-Travel: 1.0 \u00b1 0.5mm",
-          "tac_travel": "Tactile Position:N/A",
-          "tac_foce": "Tactile Force:N/A",
-          "bottom_out_force": "Bottom-out Force: N/A",
-          "spring": "Spring: N/A",
-          "price": "$17.99",
-          "bio": "N/A"
-        },
-        "26": {
+        "26": {"main_img": "https://i.postimg.cc/T24TDpbs/CS-Piano.jpg",
+          "info_img": "https://i.postimg.cc/yNsKH9qD/CS-Piano-XQ2.jpg",
+          "promo_ing": "https://i.postimg.cc/BQFfPN48/CS-Piano-Q.jpg",
           "name": "Akko CS Piano Switch",
           "type": "Type: Linear",
           "op_force": "Operating Force: 48 \u00b1 5gf",
@@ -340,7 +382,9 @@
           "price": "$16.99",
           "bio": "\nLubricants used during hand-lube process:\nKrytox GPL105 and Krytox GPL-205 G0\n"
         },
-        "27": {
+        "27": {"main_img": "https://i.postimg.cc/9fgcYMSz/Haze-Pink-GX1.jpg",
+          "info_img": "https://i.postimg.cc/fTQDK1H7/Haze-Pink-XQ2.jpg",
+          "promo_ing": "https://i.postimg.cc/2S2YCyCT/Haze-Pink-Silent-Q.jpg",
           "name": "Akko Haze Pink Silent Switch",
           "type": "Type: Linear",
           "op_force": "Operating Force: 43 \u00b1 5gf",
@@ -353,7 +397,9 @@
           "price": "$13.99",
           "bio": "\nAkko\u2019s first silent switches to help create a quiet work environment with mechanical switches ;\nSilent switches can significant reduce decibel output of keyboards in the same build environment;\nDisclaimer: silent switches still produce sounds, in a limited level, and the performance also dependent on the keycaps/build.\n"
         },
-        "28": {
+        "28": {"main_img": "https://i.postimg.cc/fRXdF4Zw/Wine-White-1.jpg",
+          "info_img": "https://i.postimg.cc/W4vZc9b0/Wine-White-XQ2.jpg",
+          "promo_ing": "https://i.postimg.cc/15D51ygY/CS-Wine-White-Q.jpg",
           "name": "Akko CS Wine White Switch",
           "type": "Type: Tactile",
           "op_force": "Operating force: 36gf \u00b1 5gf",
@@ -366,20 +412,9 @@
           "price": "$16.99",
           "bio": "\nLubricants used during hand-lube process:\nKrytox GPL105 and Krytox GPL-205 G0\n45 pcs per box\n"
         },
-        "29": {
-          "name": "Akko CS Jelly Black Switch",
-          "type": "Type: Linear",
-          "op_force": "Actuation Force: 50gf \u00b1 5gf",
-          "total_travel": "Total Travel: 4.0 \u00b1 0.3mm",
-          "pre_travel": "Pre-Travel: 1.9 \u00b1 0.3mm",
-          "tac_travel": "Tactile Position:N/A ",
-          "tac_foce": "Tactile Force:N/A ",
-          "bottom_out_force": "Bottom-out Force: N/A",
-          "spring": "Spring: N/A",
-          "price": "$16.99",
-          "bio": "\nLubricants used during hand-lube process:\nKrytox GPL105 and Krytox GPL-205 G0\n"
-        },
-        "30": {
+        "30": {"main_img": "https://i.postimg.cc/QN1rH0XF/POM-Silver.jpg",
+          "info_img": "https://i.postimg.cc/vTgFztnN/CS-POM-Silver-XQ1.jpg",
+          "promo_ing": "https://i.postimg.cc/wxZdBn88/CS-POM-Silver-XQ2.jpg",
           "name": "Akko POM Silver Switch",
           "type": "Type: Linear",
           "op_force": "Operating Force: 43gf\u00b15gf",
@@ -392,7 +427,9 @@
           "price": "$16.99",
           "bio": "\nAkko\u2019s full POM switches;\nPOM Silver is for gaming purposes with fast actuation;\nWith the 22mm extension spring, the POM materials will make the switches more smooth and cream, providing unique typing experiences;\n45 pcs in a pack.\n"
         },
-        "31": {
+        "31": {"main_img": "https://i.postimg.cc/QCQLwx6Q/POM-Pink.jpg",
+          "info_img": "https://i.postimg.cc/4d3TKgxZ/CS-POM-Pink-XQ2.jpg",
+          "promo_ing": "https://i.postimg.cc/Z5rm2HQk/CS-POM-Pink-XQ1.jpg",
           "name": "Akko POM Pink Switch",
           "type": "Type: Linear",
           "op_force": "Operating Force: 45gf\u00b15gf",
@@ -405,7 +442,9 @@
           "price": "$16.99",
           "bio": "\nAkko\u2019s full POM switches;\nWith the 22mm extension spring, the POM materials will make the switches more smooth and cream, providing unique typing experiences;\n45 pcs in a pack.\n"
         },
-        "32": {
+        "32": {"main_img": "https://i.postimg.cc/9f6G0Wpw/AKKO-CS-Crystal.jpg",
+          "info_img": "https://i.postimg.cc/kMxyVtLJ/AKKO-CS-Crystal-XQ3.jpg",
+          "promo_ing": "https://i.postimg.cc/VNrqzSjc/AKKO-CS-Crystal-XQ1.jpg",
           "name": "Akko CS Crystal Switch",
           "type": "Type: Linear",
           "op_force": "End Force: 43gf\u00b15gf",
@@ -418,7 +457,9 @@
           "price": "$14.99",
           "bio": "\nAkko\u2019s first full polycarbonate switches;\n43gf classic actuation force with 18mm extension spring.\n\u00a0\n"
         },
-        "33": {
+        "33": {"main_img": "https://i.postimg.cc/65qTkkrk/AKKO-V3-Cream-Yellow1.jpg",
+          "info_img": "https://i.postimg.cc/13NXtDYM/AKKO-V3-Cream-Yellow-XQ2.jpg",
+          "promo_ing": "https://i.postimg.cc/vHKDb0Xc/AKKO-V3-Cream-Yellow-XQ1.jpg",
           "name": "Akko V3 Cream Yellow Switch",
           "type": "Type: Linear",
           "op_force": "Operating Force: 50 \u00b1 5gf",
@@ -431,7 +472,9 @@
           "price": "$8.99",
           "bio": "\nAkko v3 Generation Switches;\n45 pcs a box.\n"
         },
-        "34": {
+        "34": {"main_img": "https://i.postimg.cc/nrcMc56Q/AKKO-V3-Cream-Blue1.jpg",
+          "info_img": "https://i.postimg.cc/pVqp1WFQ/AKKO-V3-Cream-Blue-XQ2.jpg",
+          "promo_ing": "https://i.postimg.cc/PxMPHhFj/AKKO-V3-Cream-Blue-XQ1.jpg",
           "name": "Akko V3 Cream Blue Switch",
           "type": "Type: Tactile",
           "op_force": "Operating Force: 38 \u00b1 5gf",
@@ -444,7 +487,9 @@
           "price": "$8.99",
           "bio": "\nAkko v3 Generation Switches;\nLong pole comparing to other Akko tactile switches so it would provide a solid and faster bottom-out feeling;\n45 pcs a box.\n\u00a0\n"
         },
-        "35": {
+        "35": {"main_img": "https://i.postimg.cc/8c0W8NjC/Wine-Red-Lubed.jpg",
+          "info_img": "https://i.postimg.cc/BQRDMSrY/Wine-Red-Lubed-XQ4.jpg",
+          "promo_ing": "https://i.postimg.cc/rFDx10PR/Wine-Red-Lubed-XQ.jpg",
           "name": "Akko CS Wine Red Switch",
           "type": "Type: Linear",
           "op_force": "End Force: 43gf \u00b1 5gf",
@@ -457,7 +502,9 @@
           "price": "$16.99",
           "bio": "\nLubricants used during hand-lube process:\nKrytox GPL105 and Krytox GPL-205 G0\n45 pcs per box\n"
         },
-        "36": {
+        "36": {"main_img": "https://i.postimg.cc/sxwQYypc/Akko-CS-Sakura-X.jpg",
+          "info_img": "https://i.postimg.cc/7hMcXt6X/Sakura-XQ2.jpg",
+          "promo_ing": "https://i.postimg.cc/WpnkLmQk/Akko-CS-Sakura-X-XQ.jpg",
           "name": "Akko CS Sakura Switch",
           "type": "Type: Linear",
           "op_force": "Actuation Force: 39gf \u00b1 5gf",
@@ -470,7 +517,9 @@
           "price": "$11.99",
           "bio": "\nAkko Sakura switches are lighter than pink but heavier than white switches. It is an option for the customers who love the actuation force in between.\nThey are equipped with dustproof structure and POM bottom case.\n"
         },
-        "37": {
+        "37": {"main_img": "https://i.postimg.cc/kgZSYnLY/Akko-CS-Jelly-Purple-X.jpg",
+          "info_img": "https://i.postimg.cc/dtRvSnXb/Jelly-Purple-XQ2.jpg",
+          "promo_ing": "https://i.postimg.cc/xdzzWw2f/Akko-CS-Jelly-Purple-X-XQ.jpg",
           "name": "Akko CS Jelly Purple Switch",
           "type": "Type: Tactile",
           "op_force": "Operating Force: 40gf \u00b1 5gf",
@@ -483,46 +532,9 @@
           "price": "$11.99",
           "bio": "\nJelly Purple is slightly heavier than Lavender Purple and has adopted the structure of Jelly switches with dustproof stem and PC bottom.\n\u00a0\n"
         },
-        "38": {
-          "name": "Akko CS Jelly White Switch",
-          "type": "Type: Linear",
-          "op_force": "Actuation Force : 35gf \u00b1 5gf",
-          "total_travel": "Total Travel: 4.0 \u00b1 0.3mm",
-          "pre_travel": "Pre-Travel: 1.9 \u00b1 0.3mm",
-          "tac_travel": "Tactile Position:N/A",
-          "tac_foce": "Tactile Force:N/A",
-          "bottom_out_force": "Bottom-out Force: N/A",
-          "spring": "Spring: N/A",
-          "price": "$16.99",
-          "bio": "\nLubricants used during hand-lube process:\nKrytox GPL105 and Krytox GPL-205 G0\n45 pcs per box\n"
-        },
-        "39": {
-          "name": "Akko CS Matcha Green Switch",
-          "type": "Type: Linear",
-          "op_force": "Actuation Force: 50gf \u00b1 5gf",
-          "total_travel": "Total Travel: 4.0 - 0.3mm",
-          "pre_travel": "Pre-Travel: 1.9 \u00b1 0.3mm",
-          "tac_travel": "Tactile Position:N/A",
-          "tac_foce": "Tactile Force: N/A",
-          "bottom_out_force": "Bottom-out Force: N/A",
-          "spring": "Spring: N/A",
-          "price": "$16.99",
-          "bio": "\nLubricants used during hand-lube process:\nKrytox GPL105 and Krytox GPL-205 G0\n45 pcs per box\n"
-        },
-        "40": {
-          "name": "Akko CS Lavender Purple Switch",
-          "type": "Type: Tactile",
-          "op_force": "Operating Force: 36gf \u00b1 5gf",
-          "total_travel": "Total Travel: 4.0 \u00b1 0.5mm",
-          "pre_travel": "Pre-Travel: 1.9 \u00b1 0.3mm",
-          "tac_travel": "Tactile Position:0.5 \u00b1 0.3mm ",
-          "tac_foce": "Tactile Force: 50gf \u00b15gf ",
-          "bottom_out_force": "Bottom-out Force: N/A",
-          "spring": "Spring: N/A",
-          "price": "$16.99",
-          "bio": "\nLubricants used during hand-lube process:\nKrytox GPL105 and Krytox GPL-205 G0\n45 pcs per box\n"
-        },
-        "41": {
+        "41": {"main_img": "https://i.postimg.cc/Qxf15gm3/Akko-CS-Jelly-Pink-X.jpg",
+          "info_img": "https://i.postimg.cc/brk8PRv2/Jelly-Pink-XQ4.jpg",
+          "promo_ing": "https://i.postimg.cc/Z503L9sy/Akko-CS-Jelly-Pink-X-XQ.jpg",
           "name": "Akko CS Jelly Pink Switch",
           "type": "Type: Linear",
           "op_force": "Actuation Force: 45gf \u00b1 5gf",
@@ -535,10 +547,12 @@
           "price": "$11.99",
           "bio": "\nComparing with the classic CS switches, the new CS switches are equipped with dustproof stem for enhanced stability.\n"
         },
-        "42": {
+        "42": {"main_img": "https://i.postimg.cc/CMHjMpfd/Akko-CS-Jelly-White-X.jpg",
+          "info_img": "https://i.postimg.cc/7ZxDv0rf/Jelly-White-XQ4.jpg",
+          "promo_ing": "https://i.postimg.cc/02k7bXpn/Akko-CS-Jelly-White-X-XQ.jpg",
           "name": "Akko CS Jelly White Switch",
           "type": "Type: Linear",
-          "op_force": "Actuation Force : 35gf \u00b1 5gf",
+          "op_force": "Actiuation Force : 35gf \u00b1 5gf",
           "total_travel": "Total Travel: 4.0 \u00b1 0.3mm",
           "pre_travel": "Pre-Travel: 1.9 \u00b1 0.3mm",
           "tac_travel": "Tactile Position:N/A",
@@ -548,7 +562,9 @@
           "price": "$11.99",
           "bio": "\nIt is the mod version of Vintage White with the dustproof stem structure and PC material at the bottom for translucent purposes.\nComparing with the classic CS switches, the new CS switches are equipped with dustproof stem for enhanced stability.\n"
         },
-        "43": {
+        "43": {"main_img": "https://i.postimg.cc/W14mfYzz/Akko-CS-Jelly-Black-X.jpg",
+          "info_img": "https://i.postimg.cc/PxBh07dj/Jelly-Black-XQ4.jpg",
+          "promo_ing": "https://i.postimg.cc/Fzm3bDw9/Akko-CS-Jelly-Black-X-XQ.jpg",
           "name": "Akko CS Jelly Black Switch",
           "type": "Type: Linear",
           "op_force": "Actuation Force: 50gf \u00b1 5gf",
@@ -561,7 +577,9 @@
           "price": "$11.99",
           "bio": "\n50gf actuation force with extension spring makes it the heaviest Akko CS switches.\nComparing with the classic CS switches, the new CS switches are equipped with dustproof stem for enhanced stability.\n"
         },
-        "44": {
+        "44": {"main_img": "https://i.postimg.cc/6q0RMCNC/Akko-CS-Jelly-Blue-X.jpg",
+          "info_img": "https://i.postimg.cc/nVDnqn1c/Jelly-Blue-XQ4.jpg",
+          "promo_ing": "https://i.postimg.cc/TwvDGtdr/Akko-CS-Jelly-Blue-X-XQ.jpg",
           "name": "Akko CS Jelly Blue Switch",
           "type": "Type: Tactile",
           "op_force": "Actuation Force: 40gf \u00b1 5gf",
@@ -574,7 +592,9 @@
           "price": "$11.99",
           "bio": "\nWith dual tactile bump (both when pressing and releasing);\nA \u201ctoy\u201d designed for the custom mechanical keyboard community.\nComparing with the classic CS switches, the new CS switches are equipped with dustproof stem for enhanced stability.\n"
         },
-        "45": {
+        "45": {"main_img": "https://i.postimg.cc/TPgKknVh/Akko-CS-Starfish-X.jpg",
+          "info_img": "https://i.postimg.cc/P5qcz4kz/Starfish-XQ3.jpg",
+          "promo_ing": "https://i.postimg.cc/cHWrP6hh/Akko-CS-Starfish-X-XQ.jpg",
           "name": "Akko CS Starfish Switch",
           "type": "Type: Linear",
           "op_force": "Actuation Force : 50gf \u00b1 5gf",
@@ -587,7 +607,9 @@
           "price": "$11.99",
           "bio": "\nThe starfish switch uses two-stage springs to offer different typing experiences.\n"
         },
-        "46": {
+        "46": {"main_img": "https://i.postimg.cc/P56gB7MR/Radiant-Red-X.jpg",
+          "info_img": "https://i.postimg.cc/9fKvfqKP/Radiant-Red-XQ2.jpg",
+          "promo_ing": "N/A",
           "name": "Akko CS Radiant Red Switch",
           "type": "Type: Linear",
           "op_force": "End Force: 53gf \u00b1 5gf",
@@ -600,7 +622,9 @@
           "price": "$9.99",
           "bio": "\n45 pcs per pack;\n3 pin and fits keycaps with standard MX structure;\nShipping price is not included for the listed price and will display at checkout.\n"
         },
-        "47": {
+        "47": {"main_img": "https://i.postimg.cc/Hx3X2QmX/Vintage-White-X.jpg",
+          "info_img": "N/A",
+          "promo_ing": "https://i.postimg.cc/nrz7wCV5/Vintage-White-XQ2.jpg",
           "name": "Akko CS Vintage White Switch",
           "type": "Type: Linear",
           "op_force": "End Force: 35gf \u00b1 5gf",
@@ -613,7 +637,9 @@
           "price": "$9.99",
           "bio": "\n45 pcs per pack;\n3 pin and fits keycaps with standard MX structure;\nShipping price is not included for the listed price and will display at checkout.\n\u00a0\n"
         },
-        "48": {
+        "48": {"main_img": "https://i.postimg.cc/KYZ6V2LL/Gateron-Pink-0.jpg",
+          "info_img": "https://i.postimg.cc/qgVYGV4N/Gateron-Pink-B2.jpg",
+          "promo_ing": "https://i.postimg.cc/j51BLn1Q/Gateron-Pink-B.jpg",
           "name": "Gateron Pink Switch-Lubed",
           "type": "Type: Linear",
           "op_force": "End Force: 45gf \u00b1 15gf",
@@ -626,7 +652,9 @@
           "price": "$12.99",
           "bio": "\nGateron Factory-Lubed Switches;\n45 pcs in a box.\n"
         },
-        "49": {
+        "49": {"main_img": "https://i.postimg.cc/L8BdNXq2/Gateron-Orange-0.jpg",
+          "info_img": "https://i.postimg.cc/8Ct2g0BY/Gateron-Orange-B2.jpg",
+          "promo_ing": "https://i.postimg.cc/FRz2rVTH/Gateron-Orange-B.jpg",
           "name": "Gateron Orange Switch-Lubed",
           "type": "Type: Tactile",
           "op_force": "End Force: 45gf \u00b1 15gf",
@@ -639,7 +667,9 @@
           "price": "$12.99",
           "bio": "\n\nGateron Factory-Lubed Switches;\n45 pcs in a box.\n\n"
         },
-        "50": {
+        "50": {"main_img": "https://i.postimg.cc/sxZqSDdF/Gateron-Yellow-0.jpg",
+          "info_img": "https://i.postimg.cc/kM0XH25b/Gateron-Yellow-B2.jpg",
+          "promo_ing": "https://i.postimg.cc/qBhvQspr/Gateron-Yellow-B.jpg",
           "name": "Gateron Yellow Switch-Lubed",
           "type": "Type: Linear",
           "op_force": "Operating Force: 50gf \u00b1 15gf",
@@ -652,7 +682,9 @@
           "price": "$12.99",
           "bio": "\nThis is the Akko x Gateron Collab switches;\nThe switches came factory-lubed;\n45 pcs per box.\n\u00a0\n"
         },
-        "51": {
+        "51": {"main_img": "https://i.postimg.cc/76zjJZrF/Rose-Red-CP3.jpg",
+          "info_img": "https://i.postimg.cc/L5MwtFHn/R-switch.jpg",
+          "promo_ing": "N/A",
           "name": "Akko CS Rose Red Switch",
           "type": "Type: Linear",
           "op_force": "Actuation Force: 43gf \u00b1 5gf",
@@ -665,7 +697,9 @@
           "price": "$9.99",
           "bio": "\n45 pcs per pack;\n3 pin and fits keycaps with standard MX structure;\nShipping price is not included for the listed price and will display at checkout.\n"
         },
-        "52": {
+        "52": {"main_img": "https://i.postimg.cc/26BNdxhX/Ocean-Blue-x.jpg",
+          "info_img": "https://i.postimg.cc/SNnNTWqq/B-switch.jpg",
+          "promo_ing": "N/A",
           "name": "Akko CS Ocean Blue Switch",
           "type": "Type: Tactile",
           "op_force": "End Force: 36gf \u00b1 5gf",
@@ -678,7 +712,9 @@
           "price": "$9.99",
           "bio": "\n45 pcs per pack;\n3 pin and fits keycaps with standard MX structure;\nShipping price is not included for the listed price and will display at checkout.\n\u00a0\n"
         },
-        "53": {
+        "53": {"main_img": "https://i.postimg.cc/zfQ1RQbg/Matcha-Green-x.jpg",
+          "info_img": "https://i.postimg.cc/4xZ4JjV4/G-switch.jpg",
+          "promo_ing": "N/A",
           "name": "Akko CS Matcha Green Switch",
           "type": "Type: Linear",
           "op_force": "Actuation Force: 50gf \u00b1 5gf",
@@ -691,7 +727,9 @@
           "price": "$9.99",
           "bio": "\n45 pcs per pack;\n3 pin and fits keycaps with standard MX structure;\nShipping price is not included for the listed price and will display at checkout.\n"
         },
-        "54": {
+        "54": {"main_img": "https://i.postimg.cc/g0XT12jx/TTC-Bluish-White-0.jpg",
+          "info_img": "https://i.postimg.cc/G2vShgkr/TTC-Bluish-White-B2.jpg",
+          "promo_ing": "https://i.postimg.cc/pdw6vM5q/TTC-Bluish-White-B.jpg",
           "name": "TTC Bluish White Switch",
           "type": "Type: Tactile",
           "op_force": "End Force: 42gf \u00b1 5gf",
@@ -704,7 +742,9 @@
           "price": "$20.99",
           "bio": "N/A"
         },
-        "55": {
+        "55": {"main_img": "https://i.postimg.cc/Z507y5rw/TTC-Gold-Pink-0.jpg",
+          "info_img": "https://i.postimg.cc/HLy6Bvv5/TTC-Gold-Pink-B2.jpg",
+          "promo_ing": "https://i.postimg.cc/CxtvCp7S/TTC-Gold-Pink-B.jpg",
           "name": "TTC Gold Pink Switch",
           "type": "Type: Linear",
           "op_force": "End Force: 37gf \u00b1 5gf",

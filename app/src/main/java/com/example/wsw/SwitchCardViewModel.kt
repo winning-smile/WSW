@@ -8,9 +8,11 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 
-data class SwitchK(val bottom_out_force: String?=null, val spring: String?=null, val tac_travel: String?=null, val price: String?=null,
-                   val total_travel: String?=null, val op_force: String?=null, val name: String?=null, val bio: String?=null,
-                   val tac_foce: String?=null, val type: String?=null, val pre_travel: String?=null)
+data class SwitchK(val main_img: String?=null, val info_img: String?=null, val promo_ing: String?=null,
+                   val bottom_out_force: String?=null, val spring: String?=null, val tac_travel: String?=null,
+                   val price: String?=null, val total_travel: String?=null, val op_force: String?=null,
+                   val name: String?=null, val bio: String?=null, val tac_foce: String?=null,
+                   val type: String?=null, val pre_travel: String?=null)
 
 sealed class DataState {
     class Success(val data: MutableList<SwitchK>) : DataState()

@@ -26,7 +26,6 @@ import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -34,14 +33,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import coil.compose.rememberAsyncImagePainter
 
 @SuppressLint("UnrememberedMutableInteractionSource")
 @Composable
-fun SwitchCard(name: String?, onButtonClicked: () -> Unit) {
+fun SwitchCard(name: String?, img: String?, onButtonClicked: () -> Unit) {
     Box(
         modifier = Modifier
             .padding(horizontal=10.dp)
@@ -67,7 +66,7 @@ fun SwitchCard(name: String?, onButtonClicked: () -> Unit) {
         ) {
             Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center,modifier = Modifier.fillMaxHeight().weight(1f)) {
                 Image(
-                    painter = painterResource(R.drawable.static_example),
+                    painter = rememberAsyncImagePainter(img),
                     contentDescription = stringResource(id = R.string.app_name),
                     contentScale = ContentScale.Crop,
                     modifier = Modifier
@@ -83,7 +82,7 @@ fun SwitchCard(name: String?, onButtonClicked: () -> Unit) {
                 }
             }
             Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center,modifier = Modifier.fillMaxHeight().weight(1f)) {
-                val radioButtonState = remember { mutableStateOf(false) }
+                val radioButtonState = rememberSaveable{ mutableStateOf(false) }
                 RadioButton(selected = radioButtonState.value, onClick = { radioButtonState.value = !radioButtonState.value },
                     modifier = Modifier.size(75.dp))
             }
@@ -94,7 +93,8 @@ fun SwitchCard(name: String?, onButtonClicked: () -> Unit) {
 @Composable
 fun BottomInfo(bottom_out_force: String?, spring: String?, tac_travel: String?, price: String?,
                total_travel: String?, op_force: String?, name: String?, bio: String?,
-               tac_foce: String?, type: String?, pre_travel: String?){
+               tac_foce: String?, type: String?, pre_travel: String?, main_img: String?, info_img: String?, promo_img: String?){
+
     Column(horizontalAlignment = Alignment.CenterHorizontally,
         modifier = Modifier.clip(shape = RoundedCornerShape(25.dp, 25.dp, 0.dp, 0.dp))
             .border(1.dp, Color.LightGray, RoundedCornerShape(25.dp, 25.dp, 0.dp, 0.dp))
@@ -104,7 +104,7 @@ fun BottomInfo(bottom_out_force: String?, spring: String?, tac_travel: String?, 
     {
         Row(modifier = Modifier.fillMaxWidth().padding(10.dp), horizontalArrangement= Arrangement.Center){
             Image(
-                painter = painterResource(R.drawable.static_example),
+                painter = rememberAsyncImagePainter(main_img),
                 contentDescription = stringResource(id = R.string.app_name),
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
@@ -164,7 +164,7 @@ fun BottomInfo(bottom_out_force: String?, spring: String?, tac_travel: String?, 
         }
         Row(horizontalArrangement= Arrangement.Center, modifier = Modifier.fillMaxWidth().padding(10.dp)){
             Image(
-                painter = painterResource(R.drawable.static_info_example),
+                painter = rememberAsyncImagePainter(info_img),
                 contentDescription = stringResource(id = R.string.app_name),
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
@@ -184,7 +184,7 @@ fun FullCard(sI: SwitchK) {
     val sheetState = rememberModalBottomSheetState()
     var isSheetOpen by rememberSaveable{ mutableStateOf(false) }
 
-    SwitchCard(sI.name, onButtonClicked = {isSheetOpen = !isSheetOpen})
+    SwitchCard(sI.name, sI.main_img, onButtonClicked = {isSheetOpen = !isSheetOpen})
 
     if (isSheetOpen){
         ModalBottomSheet(
@@ -194,7 +194,8 @@ fun FullCard(sI: SwitchK) {
         {
                 BottomInfo(
                     sI.bottom_out_force, sI.spring, sI.tac_travel, sI.price, sI.total_travel,
-                    sI.op_force, sI.name, sI.bio, sI.tac_foce, sI.type, sI.pre_travel)
+                    sI.op_force, sI.name, sI.bio, sI.tac_foce, sI.type, sI.pre_travel, sI.main_img,
+                    sI.info_img, sI.promo_ing)
         }
     }
 }
