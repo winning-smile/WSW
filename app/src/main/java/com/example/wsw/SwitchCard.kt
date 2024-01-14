@@ -17,10 +17,12 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.MaterialTheme
 import androidx.compose.material.ripple.rememberRipple
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.RadioButton
+import androidx.compose.material3.RadioButtonDefaults
 import androidx.compose.material3.Text
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
@@ -40,13 +42,13 @@ import coil.compose.rememberAsyncImagePainter
 
 @SuppressLint("UnrememberedMutableInteractionSource")
 @Composable
-fun SwitchCard(name: String?, img: String?, onButtonClicked: () -> Unit) {
+fun SwitchCard(sI: SwitchK, onButtonClicked: () -> Unit) {
     Box(
         modifier = Modifier
             .padding(horizontal=10.dp)
             .padding(vertical=8.dp)
             .clip(shape = RoundedCornerShape(size = 12.dp))
-            .border(2.dp, Color.LightGray, RoundedCornerShape(size = 12.dp))
+            .border(2.dp, MaterialTheme.colors.secondary, RoundedCornerShape(size = 12.dp))
             .fillMaxWidth()
             .height(100.dp)
             .background(color = Color.White)
@@ -66,7 +68,7 @@ fun SwitchCard(name: String?, img: String?, onButtonClicked: () -> Unit) {
         ) {
             Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center,modifier = Modifier.fillMaxHeight().weight(1f)) {
                 Image(
-                    painter = rememberAsyncImagePainter(img),
+                    painter = rememberAsyncImagePainter(sI.main_img),
                     contentDescription = stringResource(id = R.string.app_name),
                     contentScale = ContentScale.Crop,
                     modifier = Modifier
@@ -77,17 +79,57 @@ fun SwitchCard(name: String?, img: String?, onButtonClicked: () -> Unit) {
             Column(horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center,
                 modifier = Modifier.fillMaxHeight().weight(1f)) {
-                if (name != null) {
-                    Text(name)
+                if (sI.name != null) {
+                    Text(sI.name)
                 }
             }
             Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center,modifier = Modifier.fillMaxHeight().weight(1f)) {
                 val radioButtonState = rememberSaveable{ mutableStateOf(false) }
-                RadioButton(selected = radioButtonState.value, onClick = { radioButtonState.value = !radioButtonState.value },
-                    modifier = Modifier.size(75.dp))
+                RadioButton(selected = radioButtonState.value,
+                    onClick = {  radioButtonState.value = radioButtonLogic(radioButtonState.value, sI)},
+                    modifier = Modifier.size(75.dp),
+                    colors = RadioButtonDefaults.colors(
+                        selectedColor = MaterialTheme.colors.secondary,
+                    ))
             }
         }
     }
+}
+
+fun radioButtonLogic(state: Boolean, sI: SwitchK): Boolean {
+    if (state == false && MainActivity.switchCount.count < 2)
+    {
+        MainActivity.switchCount.add()
+        if (compareItem1.flag){
+            compareItem1.setInfoz(sI)
+        }
+        else if (compareItem2.flag){
+            compareItem2.setInfoz(sI)
+        }
+        return true
+    }
+    else if(state == true && MainActivity.switchCount.count != 0)
+    {
+        MainActivity.switchCount.minus()
+        if (!compareItem1.flag && compareItem2.flag){
+            compareItem1.clearInfoz()
+        }
+        else if (compareItem1.flag && !compareItem2.flag){
+            compareItem2.clearInfoz()
+        }
+        else if(!compareItem1.flag && !compareItem2.flag){
+            if (compareItem1.eq(sI.name)){
+                compareItem1.clearInfoz()
+            }
+            else if (compareItem2.eq(sI.name)){
+                compareItem2.clearInfoz()
+            }
+        }
+
+        return false
+    }
+
+    return false
 }
 
 @Composable
@@ -184,7 +226,7 @@ fun FullCard(sI: SwitchK) {
     val sheetState = rememberModalBottomSheetState()
     var isSheetOpen by rememberSaveable{ mutableStateOf(false) }
 
-    SwitchCard(sI.name, sI.main_img, onButtonClicked = {isSheetOpen = !isSheetOpen})
+    SwitchCard(sI, onButtonClicked = {isSheetOpen = !isSheetOpen})
 
     if (isSheetOpen){
         ModalBottomSheet(

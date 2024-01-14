@@ -38,8 +38,9 @@ fun ComposeNavigation(viewModel: SwitchCardViewModel) {
         composable("search_screen") {
             SearchScreen(viewModel, navController = navController)
         }
-        composable("compare_screen") {
-            CompareScreen(navController = navController)
+        composable("compare_screen")
+        {
+            CompareScreen(viewModel, navController = navController)
         }
         composable("build_screen") {
             BuildScreen(navController = navController)
@@ -50,6 +51,9 @@ fun ComposeNavigation(viewModel: SwitchCardViewModel) {
 @SuppressLint("UnrememberedMutableInteractionSource")
 @Composable
 fun BottomNav(navController: NavController){
+    var switch_1: ArrayList<String> = arrayListOf("N/A")
+    var switch_2: ArrayList<String> = arrayListOf("N/A")
+
     Box(modifier = Modifier
         .clip(shape = RoundedCornerShape(10.dp, 10.dp, 0.dp, 0.dp))
         .border(1.dp, Color.LightGray, RoundedCornerShape(10.dp, 10.dp, 0.dp, 0.dp))
